@@ -1,6 +1,5 @@
-import java.util.Scanner;
+public class area {
 
-public class ejercicio1 {
     public static void main(String[] args) {
         Scanner lector = new Scanner(System.in);
 
@@ -8,13 +7,17 @@ public class ejercicio1 {
         double altura;
         double area;
 
+        System.out.println("////////////////////////////////");
+
         System.out.println("ingresar el valor de la base");
         base= lector.nextDouble();
 
         System.out.println("ingresar el valor de la altura");
         altura= lector.nextDouble();
 
-         area = (base * altura)/2;
+        area = (base * altura)/2;
+
+        System.out.println("////////////////////////////////");
 
         System.out.println("el area del triangulo es:"+" "+area);
 
